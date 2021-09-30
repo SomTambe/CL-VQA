@@ -34,6 +34,6 @@ wget -P data https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Annotations_Train_
 unzip data/v2_Annotations_Train_mscoco.zip -d data
 rm data/v2_Annotations_Train_mscoco.zip
 
-wget -P data https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Annotations_Val_mscoco.zip--no-check-certificate
+wget -P data https://s3.amazonaws.com/cvmlp/vqa/mscoco/vqa/v2_Annotations_Val_mscoco.zip --no-check-certificate
 unzip data/v2_Annotations_Val_mscoco.zip -d data
 rm data/v2_Annotations_Val_mscoco.zip
